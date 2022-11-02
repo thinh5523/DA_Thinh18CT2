@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang Chu</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="home.css">
+	<link rev="">
+	<link rel="stylesheet" type="text/css" href="slide.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+</head>
+<body>
+	<div class="wrap">
+	<header >
+      <a href="#" class="logo">PETSHOP</a>
+      <div class="navigation">
+        <ul class="menu">
+          <div class="close-btn"></div>
+          <li class="menu-item"><a href="#">TRANG CHỦ</a></li>
+          <li class="menu-item">
+            <a class="sub-btn" href="">THÚ CƯNG <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="#">CHÓ CẢNH</a></li>
+              <li class="sub-item"><a href="#">MÈO CẢNH</a></li>
+              <li class="sub-item"><a href="D:/xampp/htdocs/CODE_giaodien/trangchocanh.html">TẤT CẢ</a></li>
+            </ul>
+          </li>
+          <li class="menu-item">
+            <a class="sub-btn" href="#">PHỤ KIỆN <i class="fas fa-angle-down"></i></a>
+            <ul class="sub-menu">
+              <li class="sub-item"><a href="#">NHÀ PET</a></li>
+              <li class="sub-item"><a href="#">PHỤ KIỆN MÈO</a></li>
+              <li class="sub-item"><a href="#">PHỤ KIỆN CHÓ</a></li>
+              <li class="sub-item"><a href="#">ĐỒ CHƠI PET</a></li>
+              <li class="sub-item more">
+                <a class="more-btn" href="#">THỨC ĂN <i class="fas fa-angle-right"></i></a>
+                <ul class="more-menu">
+                  <li class="more-item"><a href="#">CHÓ</a></li>
+                  <li class="more-item"><a href="#">MÈO</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="menu-item"><a href="#">DỊCH VỤ</a></li>
+          <li class="menu-item"><a href="#">LIÊN HỆ</a></li>
+          <li class="menu-item"><a href="#">GIỚI THIỆU</a></li>
+        </ul>
+      </div>
+      <div class="menu-btn"></div>
+    </header>
+		
+		<div class="main"  > <!-- bao phần nội dung chính -->
+			<div class="slide"> 
+				<div class="dieuhuong">
+					<i class="fas fa-chevron-circle-left" onclick="Back();"></i>
+					<i class="fas fa-chevron-circle-right" onclick="Next();"></i>
+				</div>
+				<div class="chuyen-slide">
+					<img src="D:\xampp\htdocs\img\c1.jpg"> 
+					<img src="D:\xampp\htdocs\img\c22.jpg"> 
+					<img src="D:\xampp\htdocs\img\c33.jpg"> 
+					<img src="D:\xampp\htdocs\img\c.jpg"> 
+					<img src="D:\xampp\htdocs\img\pet111.jpg"> 
+				</div>
+			</div>
+			
+			<div class="search">
+				<input type="text" id="menu_search" placeholder="Nhập từ cần tìm....." onkeyup="searchfunc()">
+				<ul id="menu_list">
+					<li class="menu_item"><a href="">mot</a></li>
+					<li class="menu_item"><a href="">hai</a></li>
+					<li class="menu_item"><a href="">ba</a></li>
+					<li class="menu_item"><a href="">bon</a></li>
+					<li class="menu_item"><a href="">nam</a></li>
+					<li class="menu_item"><a href="">sau</a></li>
+					<li class="menu_item"><a href="">bay</a></li>
+					<li class="menu_item"><a href="">tam</a></li>
+					<li class="menu_item"><a href="">chin</a></li>
+					<li class="menu_item"><a href="">muoi</a></li>
+				</ul>
+			</div>
+        	<div class="nav">
+            	<h2>TRANG CHỦ | DANH MỤC SẢN PHẨM</h2>
+        	</div>
+        	<div class="content">
+            <p class="content1">SẢN PHẨM MỚI</p>
+            	<div class="spnew1">
+	            	<div class="spnew">
+		                <div class="sp1">	        			
+		        			<img class="img1" src="D:\xampp\htdocs\img\qqq.jpg">
+		        			<p>ID: 1111</p>
+		        			<p><a href="" class="tencun">Tên: Alaska</a></p>
+		        			<p>Giá: 10.000.000</p>
+		        		</div>
+		        		<div class="sp1">
+		        			<img class="img1" src="D:\xampp\htdocs\img\bbb.jpg">
+		        			<p>ID: 1111</p>
+		        			<a href="" class="tencun">Tên: Alaska</a>
+		        			<p>Giá: 10.000.000</p>
+		        		</div>
+		        		<div class="sp1">
+		        			<img class="img1" src="D:\xampp\htdocs\img\ccc.jpg">
+		        			<p>ID: 1111</p>
+		        			<a href="" class="tencun">Tên: Alaska</a>
+		        			<p>Giá: 10.000.000</p>
+		        		</div>
+		        		<div class="sp1">
+		        			<img class="img1" src="D:\xampp\htdocs\img\ddd.jpg">
+		        			<p>ID: 1111</p>
+		        			<a href="" class="tencun">Tên: Alaska</a>
+		        			<p>Giá: 20.000.000</p>
+		        		</div>	        		
+		        				        		
+	        		</div>
+        		</div>
+        	<p class="content2">SẢN PHẨM NỔI BẬT</p>
+        		<div class="spnew">
+	                <div class="sp1">	        			
+	        			<img class="img1" src="D:\xampp\htdocs\img\qqq.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 20.000.000</p>
+	        		</div>
+	        		<div class="sp1">
+	        			<img class="img1" src="D:\xampp\htdocs\img\bbb.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 10.000.000</p>
+	        		</div>
+	        		<div class="sp1">
+	        			<img class="img1" src="D:\xampp\htdocs\img\ccc.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 10.000.000</p>
+	        		</div>
+	        		<div class="sp1">
+	        			<img class="img1" src="D:\xampp\htdocs\img\ddd.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 10.000.000</p>
+	        		</div>	        		
+	        			<button class="xemthem">XEM THÊM</button>	        		
+        		</div>
+        		<p class="content2">SẢN PHẨM ĐANG KHUYẾN MÃI</p>
+        		<div class="spnew">
+	                <div class="sp1">	        			
+	        			<img class="img1" src="D:\xampp\htdocs\img\qqq.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 20.000.000</p>
+	        		</div>
+	        		<div class="sp1">
+	        			<img class="img1" src="D:\xampp\htdocs\img\bbb.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 10.000.000</p>
+	        		</div>
+	        		<div class="sp1">
+	        			<img class="img1" src="D:\xampp\htdocs\img\ccc.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 10.000.000</p>
+	        		</div>
+	        		<div class="sp1">
+	        			<img class="img1" src="D:\xampp\htdocs\img\ddd.jpg">
+	        			<p>ID: 1111</p>
+	        			<a href="" class="tencun">Tên: Alaska</a>
+	        			<p>Giá: 10.000.000</p>
+	        		</div>	        		
+	        			<button class="xemthem">XEM THÊM</button>	        		
+        		</div>
+        	</div>
+        	<div class="phuongthuc">
+        		<div class="uudiem">       			
+					<i class="fas fa-truck" style="font-size: 40px;margin-top: 30px;"></i>
+					<h2 class="name-uudiem1">Vận chuyển nhanh chóng</h2>		
+					<p class="name-uudiem2">Miễn phí giao hàng trong nội thành Thành Phố Đà Nẵng.</p>
+        		</div>
+        		<div class="uudiem">       			
+					<i class="fas fa-info-circle" style="font-size: 40px;margin-top: 30px;"></i>
+					<h2 class="name-uudiem1">Hỗ trợ khách hàng</h2>	
+					<p class="name-uudiem2">Hỗ trợ trực tuyến và qua đường dây nóng 24/7.</p>						
+        		</div>
+        		<div class="uudiem">       			
+					<i class="fas fa-heart" style="font-size: 40px;margin-top: 30px;"></i>
+					<h2 class="name-uudiem1">Sản phẩm chất lượng</h2>	
+					<p class="name-uudiem2">Sản phẩm có xuất xứ 100%, bảo hành 1năm đến 2 năm, cam kết chất lượng. </p>	
+        		</div>
+        	</div>
+    	</div> <!-- kết thúc nội dung chính -->
+     
+    	<div class="footer"> <!-- phần header -->
+    		<div class="petshop">
+    			<h2>PETSHOP</h2>
+    			<p class="ndpetshop">Pet Shop là nhãn hiệu của các sản phẩm may mặc thiết kế và sản xuất gồm các mặt hàng thời trang (quần, áo, váy,…), túi xách, ba-lô, bóp ví, phụ kiện các loại, các mặt hàng phòng ngủ, phòng bếp và rất nhiều sản phẩm khác,...</p>
+    		</div>
+    		<div class="petshop">
+    			<h2>LIÊN HỆ</h2>
+    			<p class="ndpetshop"><i class="fas fa-map-marker-alt" style="font-size: 15px;"></i>    50 An Trung5, Sơn Trà, Đà Nẵng.</p>
+    			<p class="ndpetshop"><i class="fas fa-phone" style="font-size: 15px;"></i> 0384.428.572</p>
+    			<p class="ndpetshop"><i class="fas fa-envelope" style="font-size: 15px;"></i> ntt5523@gmail.com</p>
+    		</div>
+    		<div class="petshop">
+    			<h2>MẠNG XÃ HỘI</h2>
+    			<p class="ndpetshop"><i class="fab fa-facebook"></i> Facebook </p>
+    			<p class="ndpetshop"><i class="fab fa-youtube"></i> Youtobe </p>
+    			<p class="ndpetshop"><i class="fab fa-instagram"></i> Instagram</p>
+
+    		</div>
+    		<div class="petshop">
+    			<h2>HỖ TRỢ</h2>
+    			<p class="ndpetshop">Liên hệ hỗ trợ</p>
+    			<p class="ndpetshop">Chính sách đổi trả</p>
+    			<p class="ndpetshop">Hướng dẫn mua hàng</p>
+    			<p class="ndpetshop">Chiến lược kinh doanh</p>
+    		</div>
+    	</div>
+	</div>
+</body>
+<script type="text/javascript" src="slidee.js"></script>
+<script type="text/javascript" src="timkiem.js"></script>
+</html>
